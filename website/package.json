@@ -1,6 +1,10 @@
 {
+  "name": "alandalus-token-doc",
+  "version": "1.0.0",
+  "author": "Víctor Navarro <vnavarro@alcuadrado.tech>",
+  "homepage": "",
+  "license": "LGPL-3.0",
   "scripts": {
-    "examples": "docusaurus-examples",
     "start": "docusaurus-start",
     "build": "docusaurus-build",
     "publish-gh-pages": "docusaurus-publish",

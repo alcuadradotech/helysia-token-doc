@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Alcuadrado Docuemntation', // Title for your website.
-  tagline: 'Blockchain tech docs from Alcuadrado',
+  title: 'Token Al Ándalus', // Title for your website.
+  tagline: 'Toda la información sobre el Token Al Ándalus',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -30,18 +30,21 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'alcuadrado-doc',
-  organizationName: 'Alcuadrado',
+  projectName: 'alandalus-token-doc',
+  organizationName: 'Al Ándalus',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    {doc: 'token', label: 'Token'},
+    {doc: 'dao', label: 'DAO'},
+    {doc: 'ethereum', label: 'Ethereum'},
+    // {doc: 'doc1', label: 'Docs'},
+    // {doc: 'doc4', label: 'API'},
+    // {page: 'help', label: 'Help'},
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +57,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#1f93ff',
-    secondaryColor: '#647408',
+    primaryColor: '#d7a386',
+    secondaryColor: '#90ddd7',
   },
 
   /* Custom fonts for website */
@@ -73,7 +76,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Alcuadrado Blockchain SL`,
+  copyright: `Copyright © ${new Date().getFullYear()} Al Ándalus`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

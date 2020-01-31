@@ -60,14 +60,8 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
-          <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
         </div>
       </SplashContainer>
     );
@@ -79,7 +73,8 @@ class Index extends React.Component {
     const {config: siteConfig, language = ''} = this.props;
     const {baseUrl} = siteConfig;
 
-    const Block = props => (
+    const Block = props => {
+      return (
       <Container
         padding={['bottom', 'top']}
         id={props.id}
@@ -90,7 +85,7 @@ class Index extends React.Component {
           layout={props.layout}
         />
       </Container>
-    );
+    )};
 
     const FeatureCallout = () => (
       <div
@@ -118,14 +113,14 @@ class Index extends React.Component {
     );
 
     const Description = () => (
-      <Block background="dark">
+      <Block background="light">
         {[
           {
             content:
-              'This is another description of how this project is useful',
+              'Una pequeña introducción...',
             image: `${baseUrl}img/undraw_note_list.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'Descripción',
           },
         ]}
       </Block>
@@ -146,19 +141,19 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
+      <Block layout="fourColumn" background="light">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'Accede a servicios exclusivos',
+            image: `${baseUrl}img/logo-dark.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'El Token Al Ándalus',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Una organización descentralizada y participativa',
+            image: `${baseUrl}img/logo-dark.png`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'La red Al Ándalus',
           },
         ]}
       </Block>
@@ -195,15 +190,10 @@ class Index extends React.Component {
 
     return (
       <div>
-        <HomeSplash siteConfig={siteConfig} language={language} />
-        <div className="mainContainer">
+
           <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
           <Description />
-          <Showcase />
-        </div>
+
       </div>
     );
   }
