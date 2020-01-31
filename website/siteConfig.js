@@ -23,18 +23,11 @@ const users = [
 const siteConfig = {
   title: 'Token Al Ándalus', // Title for your website.
   tagline: 'Toda la información sobre el Token Al Ándalus',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
-
+  url: 'https://al2blockchain.github.io', // Your website URL
+  baseUrl: '/alandalus-token-doc/', // Base URL for your project */
   // Used for publishing and more
   projectName: 'alandalus-token-doc',
-  organizationName: 'Al Ándalus',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
+  organizationName: 'al2blockchain',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
