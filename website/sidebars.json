@@ -1,6 +1,6 @@
 {
   "docs": {
     "Ethereum": ["ethereum", "ethereum-descentralization", "ethereum-sustainability"],
-    "Al Álndalus DAO": ["dao", "dao-fundraising"]
+    "Al Álndalus DAO": ["dao", "dao-fundraising", "dao-fundraising-setup"]
   }
 }

@@ -4,7 +4,7 @@ title: Recaudación de fondos
 
 ## Recaudación de fondos
 
-Aragon Fundraising es un conjunto de aplicaciones proporciona a las organizaciones una capacidad continua de recaudación de fondos.
+Aragon Fundraising es un conjunto de aplicaciones [auditadas](https://diligence.consensys.net/audits/2019/11/aragonblack-fundraising/) proporciona a las organizaciones una capacidad continua de recaudación de fondos.
 
 La aplicación permite a los usuarios comprar y canjear el token Alándalus (ALT) a través de un **creador de mercado automatizado**, que empareja automáticamente las órdenes según una **[curva de garantía](https://yos.io/2018/11/10/bonding-curves/)** ligada a la **[fórmula de Bancor](https://medium.com/@Cooperzi/bancor-formula-the-magic-of-the-maths-b339dbebe103)**. Los depósitos se almacenan en un **fondo de reserva**, que se controla por medio de un mecanismo, a modo de grifo, y se van liberando a lo largo del tiempo hacia un fondo controlado por los gestores de Al Ándalus. Esta arquitectura permite la **rendición de cuentas** entre los inversores y miembros de la gestora, a lo largo del ciclo de vida del proyecto y, al mismo tiempo, garantiza una **liquidez suficiente** para favorecer la creación de una **organización [de larga cola](https://es.wikipedia.org/wiki/Larga_cola)**.
 
@@ -57,7 +57,7 @@ Debido a este mecanismo de agrupación, las órdenes no se pueden pasar y devolv
 
 ### El grifo
 
-El módulo de grifo impone un control de los fondos que se permite retirar del fondo de reserva hacia fondo discrecional. Para ofrecer más garantías a los inversores, este módulo también permite que este flujo de fondos se reduzca, asegurando así que el fondo de reserva no pueda vaciarse ni siquiera lentamente durante un largo período de tiempo.
+El módulo de grifo impone un control sobre los fondos que se permite retirar del fondo de reserva hacia fondo discrecional. Para ofrecer más garantías a los inversores, este módulo también permite que este flujo de fondos se reduzca, asegurando así que el fondo de reserva no pueda vaciarse ni siquiera lentamente durante un largo período de tiempo.
 
 ### Controlador
 
@@ -89,16 +89,15 @@ Los gestores de la organización son los usuarios poseedores de tokens "de gesti
 
 #### Inversores
 
-Los inversores son los que contribuyen a la campaña de recaudación, es decir, los clientes de Al Ándalis, y están representados a través del Token Al Ándalus (ALT), un token (que pueden comprar y vender a través de la interfaz de recaudación de fondos de Aragón]. **Los inversores tienen una buena parte de los derechos sobre la organización**.
+Los inversores son los que contribuyen a la campaña de recaudación, es decir, los clientes de Al Ándalus, y están representados a través del Token Al Ándalus (ALT), un token (que pueden comprar y vender a través de la interfaz de recaudación de fondos de Aragón). **Los inversores poseen la mayor parte de los derechos sobre la organización**.
 
 **Sistema de gestión**. Los inversores deciden qué aplicaciones se instalan, cuáles se actualizan y cómo se establecen los permisos.
 
 **Gestión de los parámetros de recaudación**. Los inversores deciden si o cómo se deben actualizar los beneficiarios, las tasas, los parámetros de colateralización y los grifos.
 
-### Justificación
+#### Justificación
 
 Esta arquitectura otorga una gran parte de los derechos de gobernanza a los inversores para, precísamente, proteger su inversión. Por lo tanto, es necesario mitigar las situaciones en las que un inversor que posea más del 50% de los tokens, sería el propietario de toda la organización. Por ello, los votos basados en las participaciones sólo pueden ser abiertos e iniciados por los gestores.
-
 
 ## Recursos
 

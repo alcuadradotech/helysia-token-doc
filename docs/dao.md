@@ -14,6 +14,6 @@ Como hemos visto, las DAO disponen de varias funcionalidades, entre las más imp
 
 En este proyecto, utilizamos la tecnología de [Aragon](https://aragon.org/), ya que dispone del conjunto de aplicaciones la más avanzado para la creación de DAOs en la red de Ethereum, y, además, dar solución al problema de la financiación.
 
-La solución adoptada por Aragón "Organización Continua", en la que una organización emite un token, en lo que se podría llamar, una campaña continua de recaudación de fondos, precedida por una presale.
+La solución adoptada por Aragón "Organización Continua", en la que una organización emite un token, en lo que se podría llamar, una campaña continua de recaudación de fondos, precedida por una preventa.
 
 Las organizaciones fundadas utilizando esta solución, se caracteriza por su transparencia, responsabilidad y liquidez.
