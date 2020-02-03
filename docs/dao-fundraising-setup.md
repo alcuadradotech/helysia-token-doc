@@ -62,8 +62,3 @@ Los usuarios que compran tokens en el mercado abierto, **pueden vender y transfe
 1. El usuario crea una orden de compra (esto, al igual que en la preventa, requiere la firma de **2 transacciones**).
 2. El mercado recibe la orden y la incluye en un lote. Cuaando se cumple la condición de "longitud de lote", se ejecutan las ordenes del lote
 3. Una vez ejecutadas, el usuario puede "reclamar" en cualquier momento los tokens
-
-
-## Simulación
-
-[Enlace a hoja de cálculo](https://docs.google.com/spreadsheets/d/14xC4JLWxds5G_vUntsvmBOW2o32QnLAajudQWy1GwIM/edit?usp=sharing)
