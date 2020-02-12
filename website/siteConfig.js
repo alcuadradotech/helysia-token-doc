@@ -31,9 +31,12 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'token', label: 'Token'},
-    {doc: 'dao', label: 'DAO'},
+    {doc: 'blockchain', label: 'Blockchain'},
     {doc: 'ethereum', label: 'Ethereum'},
+    {doc: 'wallets', label: 'Wallets'},
+    {doc: 'tokens', label: 'Tokens'},
+    {doc: 'alt', label: 'ALT'},
+    {doc: 'dao', label: 'DAO'},
     // {doc: 'doc1', label: 'Docs'},
     // {doc: 'doc4', label: 'API'},
     // {page: 'help', label: 'Help'},
