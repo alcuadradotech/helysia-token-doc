@@ -2,22 +2,6 @@
 title: Wallets
 ---
 
-## Billeteras
-
-### ¿Qué es una cuenta?
-
-Una cuenta es la forma segura de firmar transacciones en una Blockchain.
-
-Todas están compuestas por dos partes. La parte pública y la parte privada. Ambas son cadenas de letras y números.
-
-> **Nunca se debe revelar la parte privada de la cuenta**
-
-La parte pública es la que se conoce como "cuenta" y es la que se utiliza para enviar o recibir transacciones.
-
-Cuando un usuario crea una cuenta, tanto el acceso como la custodia de las credenciales y, por tanto del valor almacenado en esa cuenta es responsabilidad del propio usuario y de nadie más.
-
-> **Nunca se debe revelar la parte privada de la cuenta**
-
 ### ¿Qué es una billetera?
 
 Un wallet o billetera es, básicamente, una almacén de cuentas que permite interactuar con contratos inteligentes en la red Ethereum.

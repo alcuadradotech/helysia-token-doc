@@ -1,6 +1,10 @@
 {
   "docs": {
-    "Ethereum": ["ethereum", "ethereum-descentralization", "ethereum-sustainability"],
+    "Blockchain": ["blockchain"],
+    "Ethereum": ["ethereum", "ethereum-how-it-works", "ethereum-accounts", "ethereum-descentralization", "ethereum-sustainability"],
+    "Wallets": ["wallets"],
+    "Tokens": ["tokens"],
+    "Al Ándalus Token": ["alt"],
     "Al Álndalus DAO": ["dao", "dao-fundraising", "dao-fundraising-setup"]
   }
 }

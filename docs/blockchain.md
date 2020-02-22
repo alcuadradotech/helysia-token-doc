@@ -2,8 +2,6 @@
 title: Tecnología Blockchain
 ---
 
-## La Tecnología Blockchain
-
 La tecnología Blockchain surge con [Bitcoin](https://es.wikipedia.org/wiki/Historia_de_bitcoin) en 2009 y su esencia es devolver el control a los usuarios frente a un sistema totalmente centralizado.
 
 ### ¿Qué es una Blockchain?
