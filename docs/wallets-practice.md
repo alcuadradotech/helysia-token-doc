@@ -10,7 +10,7 @@ Con MetaMask podemos usar la red de pruebas Rinkeby para hacer nuestras primeras
 
 Debemos seleccionar la red de pruebas **Rinkeby**.
 
-![Rinkeby en MetaMask](https://doc-0g-1s-docs.googleusercontent.com/docs/securesc/o87etst956u3s6b30klg4k1j8c225e6i/gum3n808tqpg2lhto7ak1gk7a1d4dil2/1582534800000/03990475819448209732/03990475819448209732/1l4SLS4oygss67BmperFun9ApXy6k90QM?e=download&authuser=0)
+![Rinkeby en MetaMask](/alandalus-token-doc/img/metamask-rinkeby.png)
 
 ## Crear un par de cuentas
 
@@ -28,7 +28,7 @@ Los pasos son los siguientes:
 
 1. Copiar la dirección de la cuenta _Rinkeby 1_
 
-![Copiar la cuenta 1](https://doc-10-1s-docs.googleusercontent.com/docs/securesc/o87etst956u3s6b30klg4k1j8c225e6i/5hbc65k694m905hadoomldnagbalsi51/1582527600000/03990475819448209732/03990475819448209732/1V8nEIeG9Y45tVmhsMUmi3bgoKt6n9CV_?e=download&authuser=0&nonce=s5mnsv1odsim4)
+![Copiar la cuenta 1](/alandalus-token-doc/img/copy-address.png)
 
 2. Escribimos un tuit o una publicación en Facebook, cuyo contenido sea la dirección de la cuenta _Rinkeby 1_ (pegamos la dirección)
 
@@ -66,7 +66,9 @@ Como es obvio (esto es una blockchain) la transacción se ha registrado en un bl
 
 Si hacemos click en nuestra transacción, se despliega y vemos un montón de detalles:
 
-![Ver en Etherscan](https://doc-0k-1s-docs.googleusercontent.com/docs/securesc/o87etst956u3s6b30klg4k1j8c225e6i/sd26j7dgab58p9mmu5aspn66l62np379/1582533900000/03990475819448209732/03990475819448209732/1XxB7OG7Tu59TDecJysUyReGHmxQFgmIx?e=download&authuser=0&nonce=7llri0bqukros&user=03990475819448209732&hash=4cg4q34tmuut0i8nvpe9nokokg9e77rg)
+![Ver en Etherscan](/alandalus-token-doc/img/view-in-etherescan.png)
+
+
 
 Sin embargo, **si necesitamos ver todos los detalles** de una transacción, deberemos hacer click en el botón **↗** (Ver en Etherscan).
 
@@ -78,4 +80,4 @@ Sin embargo, **si necesitamos ver todos los detalles** de una transacción, debe
 
 En la sección cuentas vimos que la **clave privada** contiene, a su vez, la parte pública. Vamos a comprobarlo: prueba a importar la clave privada del ejemplo de la sección [Cuentas](/alandalus-token-doc/docs/ethereum-accounts) en MetaMask y comprueba que la clave pública coincide. (para importarla debemos hacer click en el **círculo de colores** y después en **Importar cuenta**).
 
-> El detalle final es que **todo el mundo que haya importado esa cuenta es dueño de todos los activos de esa cuenta**, así que, el primeo que llega, la puede vaciar sin contemplaciones porque, de hecho, es suya. De aquí **la importancia de guardar en lugar seguro las claves privadas**. 
+> El detalle final es que **todo el mundo que haya importado esa cuenta es dueño de todos los activos de esa cuenta**, así que, el primeo que llega, la puede vaciar sin contemplaciones porque, de hecho, es suya. De aquí **la importancia de guardar en lugar seguro las claves privadas**.
