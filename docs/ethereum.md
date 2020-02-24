@@ -6,9 +6,9 @@ title: El ordenador global
 
 ## ¿Qué es Ethereum?
 
-Generalmente asociamos palabra "Ethereum" a una criptomoneda, como Bitcoin. Aunque es del todo incorrecta, es importante comprender que Ethereum es mucho más que una simple criptomoneda, en realidad es una plataforma de software abierta basada en la tecnología blockchain que permite a los desarrolladores construir e implementar aplicaciones descentralizadas.
+Generalmente asociamos palabra "Ethereum" a una criptomoneda, como Bitcoin. Aunque no es del todo incorrecto, es importante comprender que Ethereum es mucho más que una simple criptomoneda, en realidad **es una plataforma de software** abierta basada en la tecnología blockchain que permite a los desarrolladores construir e implementar aplicaciones descentralizadas.
 
-Dentro de la plataforma ethereum, hay una criptomoneda llamada Ether que se usa para alimentar aplicaciones creadas en la cadena de bloques Ethereum.
+Dentro de la plataforma Ethereum, existe una criptomoneda llamada Ether que se usa para alimentar aplicaciones creadas en la cadena de bloques Ethereum.
 
 ### Definiciones básicas
 
@@ -20,4 +20,4 @@ En resumen, los megaordenadores corporativos centralizados y los servidores en l
 
 ### Entonces, ¿qué es el Ethereum?
 
-En pocas palabras, Ethereum tiene como objetivo reinventar por completo cómo funciona Internet. La visión de Ethereum es crear un "ordenador mundial": una red enorme de muchos ordenadores privados que ejecutan aplicaciones como si se tratara de un único servidor global.
+En resumen, Ethereum tiene como objetivo **reinventar por completo cómo funciona Internet**. La visión de Ethereum es crear un "ordenador mundial": una red enorme de muchos ordenadores privados que ejecutan aplicaciones como si se tratara de un único servidor global.

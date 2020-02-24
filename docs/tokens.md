@@ -1,8 +1,6 @@
 ---
-title: Tokens
+title: ¿Qué es un Token?
 ---
-
-## ¿Qué es un Token?
 
 **Conceptualmente**, un token es la representación digital de un valor. En términos generales: **es una moneda digital**.
 

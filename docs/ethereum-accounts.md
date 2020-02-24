@@ -39,7 +39,3 @@ Esta es la clave que puede ser **importada** y **exportada** desde la mayoría d
 Cuando un usuario crea una cuenta, tanto el **acceso** como la **custodia** de las credenciales y, por tanto del valor almacenado en esa cuenta **es responsabilidad del propio usuario** y de nadie más.
 
 >Repetimos: **Nunca se debe revelar la parte privada de la cuenta**
-
-
-> #### **Practica:**
-> Prueba a importar la clave privada del ejemplo en MetaMask (u otro wallet) y comprueba que la clave pública coincide.
