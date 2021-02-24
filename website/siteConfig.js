@@ -21,9 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Token Al Ándalus', // Title for your website.
-  tagline: 'Toda la información sobre el Token Al Ándalus',
-  url: 'https://al2blockchain.github.io', // Your website URL
+  title: 'Token Helysia', // Title for your website.
+  tagline: 'Toda la información sobre el Token Helysia',
+  url: 'https://alcuadradotech.github.io', // Your website URL
   baseUrl: '/alandalus-token-doc/', // Base URL for your project */
   // Used for publishing and more
   projectName: 'alandalus-token-doc',
@@ -35,8 +35,8 @@ const siteConfig = {
     {doc: 'ethereum', label: 'Ethereum'},
     {doc: 'wallets', label: 'Wallets'},
     {doc: 'tokens', label: 'Tokens'},
-    {doc: 'alt', label: 'Al Ándalus Token'},
-    {doc: 'dao', label: 'Al Ándalus DAO'},
+    {doc: 'alt', label: 'Helysia Token'},
+    {doc: 'dao', label: 'Helysia DAO'},
     // {doc: 'doc1', label: 'Docs'},
     // {doc: 'doc4', label: 'API'},
     // {page: 'help', label: 'Help'},
@@ -47,9 +47,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.png',
-  footerIcon: 'img/favicon.png',
-  favicon: 'img/favicon.png',
+  headerIcon: 'img/logo-dark.png',
+  // footerIcon: 'img/logo-dark.png',
+  favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
@@ -72,7 +72,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Al Ándalus`,
+  copyright: `Copyright © ${new Date().getFullYear()} Helysia`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.

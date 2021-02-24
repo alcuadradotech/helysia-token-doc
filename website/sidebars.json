@@ -4,7 +4,7 @@
     "Ethereum": ["ethereum", "ethereum-how-it-works", "ethereum-accounts", "ethereum-ens", "ethereum-descentralization", "ethereum-sustainability"],
     "Wallets": ["wallets", "wallets-metamask", "wallets-practice", "wallets-trustwallet", "wallets-buy"],
     "Tokens": ["tokens"],
-    "Al Ándalus Token": ["alt"],
+    "Helysia Token": ["alt"],
     "Al Álndalus DAO": ["dao", "dao-fundraising", "dao-fundraising-setup"]
   }
 }

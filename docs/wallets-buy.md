@@ -23,7 +23,7 @@ Como ya sabemos, necesitamos un poco de Ether para poder operar en la red.
 
 ### Comprar una moneda estable
 
-Todos sabemos que tanto el Ethereum como el Bitcoin varían mucho de precio. Las **monedas estables** o _Stable Coins_ son monedas cuyo valor se mantiene en paridad con el Dolar y es una forma de mantener **estables** nuestros activos. El mejor ejemplo, y también el más extendido y con el que operamos en Al Ándalus es el [DAI](https://makerdao.com/es).
+Todos sabemos que tanto el Ethereum como el Bitcoin varían mucho de precio. Las **monedas estables** o _Stable Coins_ son monedas cuyo valor se mantiene en paridad con el Dolar y es una forma de mantener **estables** nuestros activos. El mejor ejemplo, y también el más extendido y con el que operamos en Helysia es el [DAI](https://makerdao.com/es).
 
 Cambiar ETH por DAI muy simple desde el [DEX](https://trustwallet.com/blog/what-is-dex-trading-and-how-to-trade-crypto-on-trust-wallet-video) de TrustWallet.
 

@@ -30,9 +30,9 @@ class Users extends React.Component {
         <Container padding={['bottom', 'top']}>
           <div className="showcaseSection">
             <div className="prose">
-              <h1>Quén está utilizando token Al Ándalus</h1>
+              <h1>Quén está utilizando token Helysia</h1>
             </div>
-            <p>Quieres utilizar los Tokens Al Ándalus en tu empresa</p>
+            <p>Quieres utilizar los Tokens Helysia en tu empresa</p>
             <a href={editUrl} className="button">
               Add your company
             </a>

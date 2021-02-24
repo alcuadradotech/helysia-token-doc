@@ -1,5 +1,5 @@
 ---
-title: Al Ándalus DAO
+title: Helysia DAO
 ---
 
 ## ¿Qué es una DAO?

@@ -6,11 +6,11 @@ title: Recaudación de fondos
 
 Aragon Fundraising es un conjunto de aplicaciones [auditadas](https://diligence.consensys.net/audits/2019/11/aragonblack-fundraising/) proporciona a las organizaciones una capacidad continua de recaudación de fondos.
 
-La aplicación permite a los usuarios comprar y canjear el token Alándalus (ALT) a través de un **creador de mercado automatizado**, que empareja automáticamente las órdenes según una **[curva de garantía](https://yos.io/2018/11/10/bonding-curves/)** ligada a la **[fórmula de Bancor](https://medium.com/@Cooperzi/bancor-formula-the-magic-of-the-maths-b339dbebe103)**. Los depósitos se almacenan en un **fondo de reserva**, que se controla por medio de un mecanismo, a modo de grifo, y se van liberando a lo largo del tiempo hacia un fondo controlado por los gestores de Al Ándalus. Esta arquitectura permite la **rendición de cuentas** entre los inversores y miembros de la gestora, a lo largo del ciclo de vida del proyecto y, al mismo tiempo, garantiza una **liquidez suficiente** para favorecer la creación de una **organización [de larga cola](https://es.wikipedia.org/wiki/Larga_cola)**.
+La aplicación permite a los usuarios comprar y canjear el token Alándalus (ALT) a través de un **creador de mercado automatizado**, que empareja automáticamente las órdenes según una **[curva de garantía](https://yos.io/2018/11/10/bonding-curves/)** ligada a la **[fórmula de Bancor](https://medium.com/@Cooperzi/bancor-formula-the-magic-of-the-maths-b339dbebe103)**. Los depósitos se almacenan en un **fondo de reserva**, que se controla por medio de un mecanismo, a modo de grifo, y se van liberando a lo largo del tiempo hacia un fondo controlado por los gestores de Helysia. Esta arquitectura permite la **rendición de cuentas** entre los inversores y miembros de la gestora, a lo largo del ciclo de vida del proyecto y, al mismo tiempo, garantiza una **liquidez suficiente** para favorecer la creación de una **organización [de larga cola](https://es.wikipedia.org/wiki/Larga_cola)**.
 
 ### ¿Cómo funciona?
 
-Los inversores pueden, en cualquier momento, comprar tokens Al Ándalus contra una cierta cantidad de garantía, como [DAI](https://makerdao.com/en/), que entra y sale del **fondo de reserva**. La emisión o el rescate de este token se ejecuta automáticamente mediante un contrato inteligente que garantiza la **liquidez absoluta** del token. Además, el precio de este token **se ajusta automáticamente** en base a su oferta a través de una **curva de garantía**.
+Los inversores pueden, en cualquier momento, comprar tokens Helysia contra una cierta cantidad de garantía, como [DAI](https://makerdao.com/en/), que entra y sale del **fondo de reserva**. La emisión o el rescate de este token se ejecuta automáticamente mediante un contrato inteligente que garantiza la **liquidez absoluta** del token. Además, el precio de este token **se ajusta automáticamente** en base a su oferta a través de una **curva de garantía**.
 
 Cada período de tiempo - por ejemplo cada mes - **se permite que una fracción del fondo de reserva fluya hacia otra cuenta**, para, de esa manera extraer fondos para financiar nuestro proyecto. La cantidad que puede ser extraída, sólo puede ser actualizada por los propios inversores, asegurando así la **responsabilidad de la organización** hacia ellos. En comparación con los métodos tradicionales de recaudación basados en acciones o tokens, no se da una suma global a los fundadores de un proyecto. En cambio, la cantidad disponible fluctúa con el tiempo. Las condiciones de inversión son transparentes e iguales para todos los participantes. Incluso los propios ingresos del proyecto pueden enviarse al fondo de reserva, para, de esa manera, aumentar el valor del token y atraer a más usuarios, que desean beneficiarse de los aumentos de precios posteriores.
 
@@ -18,7 +18,7 @@ Cada período de tiempo - por ejemplo cada mes - **se permite que una fracción 
 
 Cuando queremos intercambiar acciones en una empresa, inmobiliaria, cooperativa, etc., tradicionalmente, hay dos formas de hacerlo: venta directa - OTC - o a través de un mercado de valores. En la OTC un comprador y un vendedor negocian un precio - o se ponen en contacto a través de un tercero - y luego realizan una transacción: este es un proceso muy lento y costoso que reduce enormemente la liquidez del activo. La venta de una casa puede, por ejemplo, llevar meses o años. Por otro lado, hay mercados basados en libros de órdenes como el mercado de valores. Éstos funcionan para activos de gran volumen como los productos básicos, donde hay muchos compradores y vendedores. Un mercado de valores con libro de órdenes empareja a compradores y vendedores cuando ambos especifican un rango de precio similar, entonces, liquidan una orden en su nombre.
 
-**Las curvas de garantía son un novedoso mecanismo criptoeconómico que ofrece un método alternativo de fijación de precios para los activos tokenizados**. Se basan en contratos inteligentes que actúan como un creador de mercado automatizado: el contrato inteligente, emite tokens a un precio que se determina algorítmicamente mediante una fórmula determinada. Más específicamente, la recaudación de fondos de Al Ándalus se basa en la [fórmula del Protocolo de Bancor](https://about.bancor.network/protocol).
+**Las curvas de garantía son un novedoso mecanismo criptoeconómico que ofrece un método alternativo de fijación de precios para los activos tokenizados**. Se basan en contratos inteligentes que actúan como un creador de mercado automatizado: el contrato inteligente, emite tokens a un precio que se determina algorítmicamente mediante una fórmula determinada. Más específicamente, la recaudación de fondos de Helysia se basa en la [fórmula del Protocolo de Bancor](https://about.bancor.network/protocol).
 
 
 ### Fórmula Bancor
@@ -73,7 +73,7 @@ La plantilla de gobierno por defecto identifica dos actores: los gestores y los 
 
 #### Los gestores
 
-Los gestores de la organización son los usuarios poseedores de tokens "de gestión" y son los que están siendo financiados por la campaña de recaudación. Éstos están representados a través de un token personalizado, el **Al Ándalus DAO Tokens** o **ALD**, y un conjunto de aplicaciones de voto dispuestas para ser utilizadas como un sistema multifirma. Sus privilegios están intencionadamente limitados para proteger a los inversores. Por lo tanto, sólo tienen los siguientes derechos:
+Los gestores de la organización son los usuarios poseedores de tokens "de gestión" y son los que están siendo financiados por la campaña de recaudación. Éstos están representados a través de un token personalizado, el **Helysia DAO Tokens** o **ALD**, y un conjunto de aplicaciones de voto dispuestas para ser utilizadas como un sistema multifirma. Sus privilegios están intencionadamente limitados para proteger a los inversores. Por lo tanto, sólo tienen los siguientes derechos:
 
 1. **Gestionar los miembros**. El consejo decide quién debe ser incluido/excluido del consejo.
 
@@ -89,7 +89,7 @@ Los gestores de la organización son los usuarios poseedores de tokens "de gesti
 
 #### Inversores
 
-Los inversores son los que contribuyen a la campaña de recaudación, es decir, los clientes de Al Ándalus, y están representados a través del Token Al Ándalus (ALT), un token (que pueden comprar y vender a través de la interfaz de recaudación de fondos de Aragón). **Los inversores poseen la mayor parte de los derechos sobre la organización**.
+Los inversores son los que contribuyen a la campaña de recaudación, es decir, los clientes de Helysia, y están representados a través del Token Helysia (ALT), un token (que pueden comprar y vender a través de la interfaz de recaudación de fondos de Aragón). **Los inversores poseen la mayor parte de los derechos sobre la organización**.
 
 **Sistema de gestión**. Los inversores deciden qué aplicaciones se instalan, cuáles se actualizan y cómo se establecen los permisos.
 

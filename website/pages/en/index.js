@@ -147,13 +147,13 @@ class Index extends React.Component {
             content: 'Accede a servicios exclusivos',
             image: `${baseUrl}img/logo-dark.png`,
             imageAlign: 'top',
-            title: 'El Token Al Ándalus',
+            title: 'El Token Helysia',
           },
           {
             content: 'Una organización descentralizada y participativa',
             image: `${baseUrl}img/logo-dark.png`,
             imageAlign: 'top',
-            title: 'La red Al Ándalus',
+            title: 'La red Helysia',
           },
         ]}
       </Block>
