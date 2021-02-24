@@ -23,11 +23,11 @@ MetaMask es una de las billeteras de Ethereum más potentes y es de las más uti
 
 Para reconocer nuestra cuenta, debemos asignarle un _alias_. para ello, hacemos click en **Detalles de la Cuenta**,
 
-![Detalles de la cuenta](/alandalus-token-doc/img/account-details1.png)
+![Detalles de la cuenta](/helysia-token-doc/img/account-details1.png)
 
 y después en el **icono del lápiz**.
 
-![Editar](/alandalus-token-doc/img/account-details2.png)
+![Editar](/helysia-token-doc/img/account-details2.png)
 
 Deberíamos darle un nombre relevante, algo así como **Cuenta Principal**
 

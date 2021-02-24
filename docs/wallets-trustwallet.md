@@ -14,7 +14,7 @@ Nada más instalar y abrir TrustWallet, la App te ofrece las opciones de "_Crear
 
 Ya tenemos una **Cuenta Principal** creada, y así, dispondremos de nuestra cuenta en dos billeteras distintas: el **navegador**, y la **aplicación del móvil**. Esto nos da la máxima flexibilidad a la hora de interactuar con la red.
 
-Para importar nuestra cuenta **necesitamos las 12 palabras semilla** que apuntamos en el apartado [Instalar MetaMask](/alandalus-token-doc/docs/wallets-metamask#instalar-metamask).
+Para importar nuestra cuenta **necesitamos las 12 palabras semilla** que apuntamos en el apartado [Instalar MetaMask](/helysia-token-doc/docs/wallets-metamask#instalar-metamask).
 
 1. Pulsamos el botón **Importar una billetera**
 2. Seleccionamos **Ethereum**

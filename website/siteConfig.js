@@ -24,10 +24,10 @@ const siteConfig = {
   title: 'Token Helysia', // Title for your website.
   tagline: 'Toda la información sobre el Token Helysia',
   url: 'https://alcuadradotech.github.io', // Your website URL
-  baseUrl: '/alandalus-token-doc/', // Base URL for your project */
+  baseUrl: '/helysia-token-doc/', // Base URL for your project */
   // Used for publishing and more
-  projectName: 'alandalus-token-doc',
-  organizationName: 'al2blockchain',
+  projectName: 'helysia-token-doc',
+  organizationName: 'alcuadradotech',
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
@@ -72,7 +72,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Helysia`,
+  copyright: `Copyright © ${new Date().getFullYear()} Helysia.io`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
