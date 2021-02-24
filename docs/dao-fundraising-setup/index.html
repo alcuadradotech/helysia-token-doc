@@ -1,0 +1,111 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Configuración de la DAO Helysia · Token Helysia</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Crear una DAO"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Configuración de la DAO Helysia · Token Helysia"/><meta property="og:type" content="website"/><meta property="og:url" content="https://alcuadradotech.github.io/helysia-token-doc/"/><meta property="og:description" content="## Crear una DAO"/><meta property="og:image" content="https://alcuadradotech.github.io/helysia-token-doc/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://alcuadradotech.github.io/helysia-token-doc/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/helysia-token-doc/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/helysia-token-doc/js/scrollSpy.js"></script><link rel="stylesheet" href="/helysia-token-doc/css/main.css"/><script src="/helysia-token-doc/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/helysia-token-doc/"><img class="logo" src="/helysia-token-doc/img/logo-dark.png" alt="Token Helysia"/><h2 class="headerTitleWithLogo">Token Helysia</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/helysia-token-doc/docs/blockchain" target="_self">Blockchain</a></li><li class="siteNavGroupActive"><a href="/helysia-token-doc/docs/ethereum" target="_self">Ethereum</a></li><li class="siteNavGroupActive"><a href="/helysia-token-doc/docs/wallets" target="_self">Wallets</a></li><li class="siteNavGroupActive"><a href="/helysia-token-doc/docs/tokens" target="_self">Tokens</a></li><li class="siteNavGroupActive"><a href="/helysia-token-doc/docs/alt" target="_self">Helysia Token</a></li><li class="siteNavGroupActive"><a href="/helysia-token-doc/docs/dao" target="_self">Helysia DAO</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Al Álndalus DAO</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Blockchain</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/blockchain">La Tecnología Blockchain</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Ethereum</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/ethereum">El ordenador global</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/ethereum-how-it-works">¿Cómo funciona?</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/ethereum-accounts">Cuentas</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/ethereum-ens">Ethereum Name Service</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/ethereum-descentralization">¿Por qué Ethereum?</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/ethereum-sustainability">Sostenibilidad y Escalabilidad</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Wallets</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/wallets">¿Qué es un Wallet?</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/wallets-metamask">MetaMask</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/wallets-practice">Practicar con MetaMask</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/wallets-trustwallet">TrustWallet</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/wallets-buy">La hora de la verdad</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Tokens</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/tokens">¿Qué es un Token?</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Helysia Token</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/alt">El Token Helysia</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Al Álndalus DAO</h3><ul class=""><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/dao">Helysia DAO</a></li><li class="navListItem"><a class="navItem" href="/helysia-token-doc/docs/dao-fundraising">Recaudación de fondos</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/helysia-token-doc/docs/dao-fundraising-setup">Configuración de la DAO Helysia</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Configuración de la DAO Helysia</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="crear-una-dao"></a><a href="#crear-una-dao" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Crear una DAO</h2>
+<h2><a class="anchor" aria-hidden="true" id="configurar-la-preventa"></a><a href="#configurar-la-preventa" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configurar la preventa</h2>
+<p>La plantilla pr defecto de Aragon Fundraising permite configurar una campaña de preventa con las siguientes características:</p>
+<ol>
+<li>Garantiza una reserva mínima y un tope de fondos retirables</li>
+<li>Ofrece transparencia e igualdad de oportunidades a los inversores</li>
+<li>Automatiza la inicialización de la curva testeando la métrica de la campaña contra sus valores mínimos</li>
+</ol>
+<h3><a class="anchor" aria-hidden="true" id="configuración-de-la-preventa"></a><a href="#configuración-de-la-preventa" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuración de la preventa</h3>
+<ul>
+<li><strong>Objetivo</strong>: La cantidad de DAI que la campaña de preventa debe recoger para que la curva se inicialice.</li>
+<li><strong>Precio</strong>: Este es el precio al que los clientes que participan en la preventa comprarán los tokens. Esto asegura la igualdad de condiciones al ofrecer el mismo precio a todos los participantes en la fase de preventa. Este precio se calcula automáticamente de acuerdo con los términos comerciales que se detallan a continuación.</li>
+<li><strong>Período</strong>: Cuánto tiempo dura la campaña de preventa. Si el objetivo no se alcanza, los fondos se reembolsan a los participantes. Si el objetivo se alcanza antes de este límite, la preventa se cierra y la curva puede ser iniciada.</li>
+<li><strong>Tokens ofrecidos</strong>: El porcentaje de la oferta inicial tokens que se ofrecerá durante la preventa. El resto de este suministro se acuñará y se enviará a la DAO si la preventa tiene éxito.</li>
+<li><strong>Fondos retirables</strong>: El porcentaje del objetivo de la preventa que se enviará a la DAO si la preventa tiene éxito. El resto de los fondos aportados se enviarán al fondo de reserva apoyar el mercado.</li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="condiciones-de-devengo"></a><a href="#condiciones-de-devengo" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Condiciones de devengo</h4>
+<ul>
+<li><strong>Cliff</strong>: Tiempo en días, a partir del cual empiezan a ser adjudicados parcialmente los tokens a los inversores de preventa.</li>
+<li><strong>Calendario de devengos</strong>: Tiempo en días, a partir del cual se entrga el total de los tokens a los inversores. Para evitar el trading inmediato, el total de los tokens que se compran en la preventa sólo pueden devengarse a partir de un tiempo determinado.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="adquisición-de-tokens-en-la-preventa"></a><a href="#adquisición-de-tokens-en-la-preventa" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adquisición de tokens en la preventa</h3>
+<ol>
+<li>El usuario participa con la cantidad deseada(1), lo que requiere la firma de <strong>2 transacciones</strong>(2).</li>
+</ol>
+<blockquote>
+<p>(1) O la que se le ofrezca en la conformación de la transacción, es decir, se puede establecer una cantidad fija en las interfaces externas desarrolladas para la preventa. No obstante, si se publicita la URL de la organización, los usuarios siempre podrán adquirir la cantidad que deseen.</p>
+</blockquote>
+<blockquote>
+<p>(2) Técnicamente, la primera consiste en dar permiso (Approve) al contrato de la Stable Coin (DAI) para que el contrato de preventa, pueda utilizar el DAI del usuario, y la segunda consiste en gastar el DAI aprobado en la anterior, en el cotrato de preventa (Contribute).</p>
+</blockquote>
+<h3><a class="anchor" aria-hidden="true" id="muy-importante-desde-el-punto-de-vista-de-los-usuarios---1-preventa"></a><a href="#muy-importante-desde-el-punto-de-vista-de-los-usuarios---1-preventa" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Muy importante desde el punto de vista de los usuarios - (1) Preventa!!!</h3>
+<p>Los inversores <strong>no pueden ni vender ni transferir</strong> los tokens adquiridos durante la preventa hasta que se cumplan las condiciones de devengo.</p>
+<h3><a class="anchor" aria-hidden="true" id="condiciones-del-mercado-posterior-a-la-preventa"></a><a href="#condiciones-del-mercado-posterior-a-la-preventa" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Condiciones del mercado posterior a la preventa</h3>
+<ul>
+<li><strong>Precio inicial del token</strong>: El precio inicial en el momento de la puesta en marcha del mercado.</li>
+<li><strong>Crecimiento esperado</strong>: Con la finalidad de ralizar los cálculos oportunos, se debe especificar una capitalización máxima de mercado. Cuando se alcanza este límite, se puede operar en el mercado, pero el precio ya no sube más. Debe ser un múltiplo de la capitalización de mercado inicial y, a todos los efectos, se puede configurar como un número irrealmente alto, para crear un extremo superior de la curva útil totalmente plano.</li>
+</ul>
+<h3><a class="anchor" aria-hidden="true" id="muy-importante-desde-el-punto-de-vista-de-los-usuarios---2-mercado"></a><a href="#muy-importante-desde-el-punto-de-vista-de-los-usuarios---2-mercado" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Muy importante desde el punto de vista de los usuarios - (2) Mercado!!!</h3>
+<p>Los usuarios que compran tokens en el mercado abierto, <strong>pueden vender y transferir</strong> los tokens adquiridos sin restricciones, mientras que los que los adquirieron en preventa, no pueden hacerlo, al menos hasta que se cumpla el periodo de Cliff.</p>
+<h4><a class="anchor" aria-hidden="true" id="configuración-avanzada"></a><a href="#configuración-avanzada" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuración avanzada</h4>
+<ul>
+<li><p><strong>Longitud de lote</strong>: se puede usar para establecer cuántos bloques de Ethereum dura un lote. Un lote contiene varias ódenes de conpra/venta.</p></li>
+<li><p><strong>Deslizamiento de DAI</strong>: Es una medida de protección mediante la cual, si el precio del lote difiere en un porcentaje más alto que esta métrica, las órdenes se cancelan y los fondos se devuelven a los usuarios.</p></li>
+<li><p><strong>Deslizamiento de ANT</strong>: la misma protección para el ANT.</p></li>
+<li><p><strong>Asignación mensual inicial</strong>: Es la cantidad de fondos que se envían al grifo cada mes. El grifo se puede abrir las veces que se desee durante el mes, pero sólo saldrá, como máximo esta cantidad.</p></li>
+<li><p><strong>Límite inicial del grifo</strong>: Es la cantidad mínima de fondos de reserva a partir de la cual, el grifo se congela hasta que la reseva vuelva a contar con fondos suficientes. Con esto se consigue evitar que la curva vaya cero o negativo, proporciona cierta estabilidad de precios y genera la necesaria percepción de responsabilidad fente a los inversores.</p></li>
+</ul>
+<h4><a class="anchor" aria-hidden="true" id="adquisición-de-tokens-en-el-mercado"></a><a href="#adquisición-de-tokens-en-el-mercado" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Adquisición de tokens en el mercado</h4>
+<ol>
+<li>El usuario crea una orden de compra (esto, al igual que en la preventa, requiere la firma de <strong>2 transacciones</strong>).</li>
+<li>El mercado recibe la orden y la incluye en un lote. Cuaando se cumple la condición de &quot;longitud de lote&quot;, se ejecutan las ordenes del lote</li>
+<li>Una vez ejecutadas, el usuario puede &quot;reclamar&quot; en cualquier momento los tokens</li>
+</ol>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/helysia-token-doc/docs/dao-fundraising"><span class="arrow-prev">← </span><span>Recaudación de fondos</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#crear-una-dao">Crear una DAO</a></li><li><a href="#configurar-la-preventa">Configurar la preventa</a><ul class="toc-headings"><li><a href="#configuración-de-la-preventa">Configuración de la preventa</a></li><li><a href="#adquisición-de-tokens-en-la-preventa">Adquisición de tokens en la preventa</a></li><li><a href="#muy-importante-desde-el-punto-de-vista-de-los-usuarios---1-preventa">Muy importante desde el punto de vista de los usuarios - (1) Preventa!!!</a></li><li><a href="#condiciones-del-mercado-posterior-a-la-preventa">Condiciones del mercado posterior a la preventa</a></li><li><a href="#muy-importante-desde-el-punto-de-vista-de-los-usuarios---2-mercado">Muy importante desde el punto de vista de los usuarios - (2) Mercado!!!</a></li></ul></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/helysia-token-doc/" class="nav-home"></a><div><h5>Docs</h5><a href="/helysia-token-doc/docs/en/#">Cómo empezar</a></div><div><h5>Comunidad</h5><a href="/helysia-token-doc/en/users.html">Empresas</a></div><div><h5>Más</h5><a href="/helysia-token-doc/blog">Blog</a></div></section><section class="copyright">Copyright © 2021 Helysia.io</section></footer></div></body></html>
